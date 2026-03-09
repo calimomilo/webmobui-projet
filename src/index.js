@@ -49,7 +49,7 @@ const setupOfflineMode = () => {
 }
 
 const connectServiceWorkers = () => {
-  navigator.serviceWorker.register('/stale-while-revalidating.js')
+  navigator.serviceWorker.register('/OneSignalSDKWorker.js')
 }
 
 window.addEventListener('hashchange', router)
